@@ -1,0 +1,11 @@
+package com.pro.design;
+
+public class Album implements PrototypeCapable {
+
+	@Override
+	public PrototypeCapable clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

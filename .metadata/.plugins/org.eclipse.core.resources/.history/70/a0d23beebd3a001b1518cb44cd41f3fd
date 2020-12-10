@@ -1,0 +1,17 @@
+package com.pro.design;
+
+import java.util.HashMap;
+
+public class PrototypeFactory {
+	
+	public static class ModelType {
+		
+		public static final String MOVIE = "movie";
+		public static final String SHOW = "show";
+		public static final String ALBUM = "album";
+	}
+	
+	
+	private static Map<String,PrototypeCapable> prototypes = new HashMap<String , PrototypeCapable>();
+
+}

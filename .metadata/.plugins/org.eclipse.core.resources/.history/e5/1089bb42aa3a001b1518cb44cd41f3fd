@@ -1,0 +1,15 @@
+package com.pro.design;
+
+public class Movie implements PrototypeCapable {
+	
+	
+	private String  name = null;
+
+	@Override
+	public PrototypeCapable clone() throws CloneNotSupportedException {
+	
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.pro.design;
+
+public class PrototypePattern {
+
+}

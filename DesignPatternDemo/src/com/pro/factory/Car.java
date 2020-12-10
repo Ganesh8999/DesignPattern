@@ -1,0 +1,32 @@
+package com.pro.factory;
+
+public abstract class Car {
+	
+	
+	private CarType model = null;
+
+	CarType getModel() {
+		return model;
+	}
+
+	void setModel(CarType model) {
+		this.model = model;
+	}
+
+	public Car(CarType model) {
+		this.model = model;
+		arrangeParts();
+	}
+
+	private void arrangeParts() {
+			// do some one time processing...
+	}
+	
+	
+	// Do some subclass level logic in this method
+	protected abstract void construct();
+	
+	
+	
+
+}

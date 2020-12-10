@@ -1,0 +1,26 @@
+package com.pro.prototype;
+
+public class Show implements PrototypeCapable {
+
+	private String name = null;
+
+	String getName() {
+		return name;
+	}
+
+	void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Show";
+	}
+
+	@Override
+	public Show clone() throws CloneNotSupportedException {
+		System.out.println("Show.clone()");
+		return (Show) super.clone();
+	}
+
+}

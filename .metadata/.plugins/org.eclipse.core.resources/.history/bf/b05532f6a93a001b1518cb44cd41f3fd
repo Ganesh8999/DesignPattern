@@ -1,0 +1,8 @@
+package com.pro.design;
+
+public interface PrototypeCapable extends Cloneable {
+	
+	
+	public PrototypeCapable clone() throws CloneNotSupportedException();
+
+}

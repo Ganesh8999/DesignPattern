@@ -1,0 +1,11 @@
+package com.pro.factory;
+
+public class SedanCar extends Car {
+
+	@Override
+	protected void construct() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

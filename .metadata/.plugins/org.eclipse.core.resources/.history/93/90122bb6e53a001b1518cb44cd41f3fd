@@ -1,0 +1,15 @@
+package com.pro.factory;
+
+public class MyCarFactory {
+
+	public static Car buildCar(CarType model) {
+		Car car = null;
+		
+		switch () {
+		
+		
+		}
+	}
+	
+	
+}

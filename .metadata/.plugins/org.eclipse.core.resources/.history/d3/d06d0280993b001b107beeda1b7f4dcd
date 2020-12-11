@@ -1,0 +1,16 @@
+package com.pro.singleton;
+
+public class EagerInitailization {
+	
+	private static volatile EagerInitailization singleton = new  EagerInitailization();
+	
+	// private constructor
+	private EagerInitailization() {
+		
+		// can't call constructor
+	}
+
+	public static EagerInitailization getInstance() {
+		return singleton;
+	}
+}

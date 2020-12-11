@@ -1,0 +1,28 @@
+package com.pro.singleton;
+
+import java.io.Serializable;
+
+public class SingletonWithReadResolve implements Serializable {
+    private volatile static SingletonWithReadResolve instance = null;
+ 
+    public static SingletonWithReadResolve getInstance() {
+        if (instance == null) {
+            instance = new SingletonWithReadResolve();
+        }
+        return instance;
+    }
+ 
+    protected Object readResolve() {
+        return instance;
+    }
+ 
+    private int i = 10;
+ 
+    public int getI() {
+        return i;
+    }
+ 
+    public void setI(int i) {
+        this.i = i;
+    }
+}

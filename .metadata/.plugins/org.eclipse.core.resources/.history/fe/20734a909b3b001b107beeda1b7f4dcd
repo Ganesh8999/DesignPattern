@@ -1,0 +1,13 @@
+package com.pro.singleton;
+
+public class BillPughSolutionForSingleton {
+	
+	private BillPughSolutionForSingleton() {
+		
+	}
+	
+	private static class LazyHolder {
+		private static final BillPughSolutionForSingleton INSTANCE = new BillPughSolutionForSingleton();
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.pro.singleton;
+
+public enum SingletonWithEnum {
+
+	INSTANCE;
+	public void someMethod() {
+		// some class member
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.pro.singleton;
+
+public class LazyIntialization {
+
+	
+	private static volatile LazyIntialization lazyInstance = null;
+	
+	
+	private LazyIntialization() {
+		
+	}
+	
+	public static LazyIntialization getInstance() {
+		
+		if(lazyInstance == null) {
+			
+			synchronized (LazyIntialization.class) {
+				
+				lazyInstance = new LazyIntialization();
+			}
+		}
+	}
+	
+}

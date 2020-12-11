@@ -1,0 +1,21 @@
+package com.pro.singleton;
+
+public class SingletonWithStaticBlock {
+	
+	private static final SingletonWithStaticBlock INSTANCE;
+	
+	
+	private SingletonWithStaticBlock() {
+		
+	}
+	
+	static {
+		try {
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}

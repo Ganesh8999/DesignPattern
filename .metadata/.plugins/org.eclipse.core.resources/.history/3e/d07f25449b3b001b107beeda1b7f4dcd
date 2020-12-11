@@ -1,0 +1,27 @@
+package com.pro.singleton;
+
+public class SingletonWithStaticBlock {
+
+	private static final SingletonWithStaticBlock INSTANCE;
+
+	private SingletonWithStaticBlock() {
+
+	}
+
+	static {
+		try {
+
+			INSTANCE = new SingletonWithStaticBlock();
+		} catch (Exception e) {
+			// TODO: handle exception
+			throw new RuntimeException(" unexpected error while creating the singleton object using static block",e);
+		}
+	}
+	
+	
+	public static SingletonWithStaticBlock getInstance() {
+		
+		return INSTANCE;
+	}
+
+}

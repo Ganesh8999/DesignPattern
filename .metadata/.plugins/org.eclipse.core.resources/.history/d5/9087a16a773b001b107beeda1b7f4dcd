@@ -1,0 +1,9 @@
+package com.pro.abstractFactory;
+
+public abstract class Car {
+	
+	
+	private CarType model = null;
+	private Location location = null;
+
+}

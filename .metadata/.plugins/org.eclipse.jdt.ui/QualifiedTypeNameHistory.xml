@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.pro.design.Movie"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="com.pro.design.Album"/>
+    <fullyQualifiedTypeName name="com.pro.design.Show"/>
+    <fullyQualifiedTypeName name="com.pro.design.PrototypeCapable"/>
+    <fullyQualifiedTypeName name="com.pro.design.PrototypeFactory"/>
+    <fullyQualifiedTypeName name="com.pro.design.PrototypeFactory.ModelType"/>
+    <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+    <fullyQualifiedTypeName name="com.pro.factory.SedanCar"/>
+    <fullyQualifiedTypeName name="com.pro.factory.LuxuryCar"/>
+    <fullyQualifiedTypeName name="com.pro.factory.MyCarFactory"/>
+    <fullyQualifiedTypeName name="com.pro.factory.CarType"/>
+</qualifiedTypeNameHistroy>

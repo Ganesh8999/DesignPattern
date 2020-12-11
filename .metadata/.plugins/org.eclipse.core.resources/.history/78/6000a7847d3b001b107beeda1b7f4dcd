@@ -1,0 +1,22 @@
+package com.pro.builder;
+
+public class TestEmployeeBuilder {
+
+	public static void main(String[] args) {
+
+		Employee employee1 = new Employee.EmployeeBuilder("Ganesh", "Singh").age(24).address("California")
+				.phone("1234567890").build();
+		
+		System.out.println(employee1);
+		
+		
+		Employee emp2 = new Employee.EmployeeBuilder("John", "Wick")
+			    .age(40)
+			    .phone("5655")
+			    //no address
+			    .build();
+			 
+			    System.out.println(user2);
+	}
+
+}

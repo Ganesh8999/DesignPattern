@@ -1,0 +1,54 @@
+package com.pro.builder;
+
+public class Employee {
+
+	// All final attributes
+	private final String firstName; // required
+	private final String lastName; // required
+	private final int age; // optional
+	private final String phone; // optional
+	private final String address; // optional
+	
+	
+	
+	
+
+	public Employee(String firstName, String lastName, int age, String phone, String address) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+		this.phone = phone;
+		this.address = address;
+	}
+
+	// All getter, and NO setter to provde immutability
+
+	String getFirstName() {
+		return firstName;
+	}
+
+	String getLastName() {
+		return lastName;
+	}
+
+	int getAge() {
+		return age;
+	}
+
+	String getPhone() {
+		return phone;
+	}
+
+	String getAddress() {
+		return address;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Employee [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + ", phone=" + phone
+				+ ", address=" + address + "]";
+	}
+
+}

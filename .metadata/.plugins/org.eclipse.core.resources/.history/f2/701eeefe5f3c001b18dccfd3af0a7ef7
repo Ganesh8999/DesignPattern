@@ -1,0 +1,5 @@
+package com.pro.mediator;
+
+public class ATCmediator implements IATCMediator {
+
+}

@@ -1,0 +1,10 @@
+package com.pro.mediator;
+
+public interface IATCMediator {
+	
+	public void registerRunway(Runway runway);
+	public void registerFilght(Flight flight);
+	public boolean isLandingOk();
+	public void setLandingStatus(boolean status);
+
+}

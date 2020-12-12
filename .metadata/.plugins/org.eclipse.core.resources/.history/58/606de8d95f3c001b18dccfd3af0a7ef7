@@ -1,0 +1,15 @@
+package com.pro.mediator;
+
+public class Flight  implements Command{
+
+	
+    private IATCMediator atcMediator; 
+
+	
+	@Override
+	public void land() {
+
+		
+	}
+
+}

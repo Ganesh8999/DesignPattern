@@ -1,0 +1,14 @@
+package com.pro.mediator;
+
+public class MediatorDesginPatternTest {
+
+	
+	public static void main(String[] args) {
+		IATCMediator atcMediator = new ATCmediator(); 
+        Flight indogo1010 = new Flight(atcMediator); 
+        Runway mainRunway = new Runway(atcMediator); 
+        
+        atcMediator.registerFlight();
+		
+	}
+}

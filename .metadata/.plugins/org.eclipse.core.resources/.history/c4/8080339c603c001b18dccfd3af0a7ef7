@@ -1,0 +1,10 @@
+package com.pro.mediator;
+
+public class MediatorDesginPatternTest {
+
+	
+	public static void main(String[] args) {
+		
+		IATCMediator mediator = new  ATCMediator();
+	}
+}

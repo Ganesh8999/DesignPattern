@@ -1,0 +1,6 @@
+package com.pro.iterator;
+
+public interface Iterator<E> {
+
+	
+}

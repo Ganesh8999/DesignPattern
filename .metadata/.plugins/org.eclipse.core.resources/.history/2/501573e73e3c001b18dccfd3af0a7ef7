@@ -1,0 +1,14 @@
+package com.pro.iterator;
+
+public class TopicList implements List<Topic> {
+
+	@Override
+	public Iterator<Topic> iterator() {
+
+		
+		return null;
+	}
+	
+	
+
+}

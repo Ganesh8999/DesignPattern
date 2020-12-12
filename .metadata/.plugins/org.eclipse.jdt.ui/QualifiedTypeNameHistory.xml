@@ -13,4 +13,24 @@
     <fullyQualifiedTypeName name="com.pro.factory.LuxuryCar"/>
     <fullyQualifiedTypeName name="com.pro.factory.MyCarFactory"/>
     <fullyQualifiedTypeName name="com.pro.factory.CarType"/>
+    <fullyQualifiedTypeName name="com.pro.abstractFactory.SmallCar"/>
+    <fullyQualifiedTypeName name="com.pro.abstractFactory.Location"/>
+    <fullyQualifiedTypeName name="com.pro.abstractFactory.USACarFactory"/>
+    <fullyQualifiedTypeName name="com.pro.abstractFactory.CarFactory"/>
+    <fullyQualifiedTypeName name="com.pro.abstractFactory.CarType"/>
+    <fullyQualifiedTypeName name="com.pro.builder.Employee"/>
+    <fullyQualifiedTypeName name="com.pro.builder.Employee.EmployeeBuilder"/>
+    <fullyQualifiedTypeName name="com.pro.singleton.EagerInitailization"/>
+    <fullyQualifiedTypeName name="com.pro.singleton.LazyIntialization"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="com.pro.singleton.BillPughSolutionForSingleton"/>
+    <fullyQualifiedTypeName name="com.pro.singleton.BillPughSolutionForSingleton.LazyHolder"/>
+    <fullyQualifiedTypeName name="com.pro.singleton.SingletonWithStaticBlock"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutput"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInput"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="com.pro.singleton.SingletonWithoutReadResolve"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.pro.singleton.SingletonWithReadResolve"/>
+    <fullyQualifiedTypeName name="com.pro.command.Command"/>
 </qualifiedTypeNameHistroy>

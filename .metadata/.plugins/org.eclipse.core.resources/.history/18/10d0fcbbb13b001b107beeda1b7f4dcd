@@ -1,0 +1,5 @@
+package com.pro.command;
+
+public class LightOnCommand {
+
+}

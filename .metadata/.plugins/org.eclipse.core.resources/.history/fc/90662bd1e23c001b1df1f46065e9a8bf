@@ -1,0 +1,8 @@
+package com.pro.memento;
+
+public class MementoTest {
+	
+	
+	Life<Life.Memento>
+
+}

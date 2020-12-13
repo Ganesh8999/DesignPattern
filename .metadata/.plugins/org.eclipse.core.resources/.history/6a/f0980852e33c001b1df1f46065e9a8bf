@@ -1,0 +1,15 @@
+package com.pro.memento;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MementoTest {
+	
+	
+	List<Memento> recordTime = new ArrayList<Memento>();
+	
+	Life life = new Life();
+	
+	life.set("1400's");
+
+}

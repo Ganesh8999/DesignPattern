@@ -1,0 +1,30 @@
+package com.pro.memento;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MementoTest {
+	
+	public static void main(String[] args) {
+	
+		List<Memento> recordTime = new ArrayList<Memento>();
+		
+		Life life = new Life();
+		
+		life.set("1400's");
+		recordTime.add(life.saveToMemento());
+		
+		life.set("1500's");
+		recordTime.add(life.saveToMemento());
+		
+		life.set("1600's");
+		recordTime.add(life.saveToMemento());
+		
+		
+		life.set("2000's");
+		life.restoreMemento(recordTime.get(0));
+		
+	}
+	
+	
+}

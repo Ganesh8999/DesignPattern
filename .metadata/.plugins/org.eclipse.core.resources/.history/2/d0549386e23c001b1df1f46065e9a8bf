@@ -1,0 +1,17 @@
+package com.pro.memento;
+
+public class Memento {
+	
+	
+	private final String time;
+
+	public String getSavedTime() {
+		
+		
+		return null;
+	}
+	
+	
+	
+
+}

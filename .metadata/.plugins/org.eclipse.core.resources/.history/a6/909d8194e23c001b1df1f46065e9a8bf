@@ -1,0 +1,21 @@
+package com.pro.memento;
+
+public class Memento {
+	
+	
+	private final String time;
+
+	public Memento(String time2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getSavedTime() {
+		
+		
+		return null;
+	}
+	
+	
+	
+
+}

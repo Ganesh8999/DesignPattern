@@ -1,0 +1,8 @@
+package com.pro.memento;
+
+public class MementoTest {
+	
+	
+	List<Memento> recordTime = new AraryList<Memento>();
+
+}

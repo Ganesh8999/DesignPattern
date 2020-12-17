@@ -1,0 +1,25 @@
+package com.pro.observer;
+
+public class MessagePublisher implements Subject {
+
+	@Override
+	public void attach(Observer o) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void detach(Observer o) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void notifyUpdate(Message m) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

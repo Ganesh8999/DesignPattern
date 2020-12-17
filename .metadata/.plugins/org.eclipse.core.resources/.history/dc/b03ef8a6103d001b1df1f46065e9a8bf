@@ -1,0 +1,7 @@
+package com.pro.observer;
+
+public class MessagePublisher implements Subject {
+	
+	
+
+}

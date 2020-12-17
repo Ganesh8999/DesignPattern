@@ -1,0 +1,12 @@
+package com.pro.observer;
+
+
+public class SecondSubscriber implements Observer {
+
+	@Override
+	public void update(Message m) {
+
+		System.out.println("First Subscriber :- I got "+ m.getMessageContent());
+	}
+
+}

@@ -1,5 +1,8 @@
 package com.pro.mediator;
 
+import com.pro.mediator.Flight;
+import com.pro.mediator.Runway;;
+
 public interface IATCMediator {
 	
 	public void registerRunway(Runway runway);

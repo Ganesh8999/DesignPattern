@@ -1,0 +1,13 @@
+package com.pro.observer;
+
+public class OberserverTest {
+	
+	public static void main(String[] args) {
+		
+		
+		FirstSubsriber f1 = new FirstSubsriber();
+		SecondSubscriber f2 =  new SecondSubscriber();
+		ThirdSubscriber f3 = new ThirdSubscriber();
+	}
+
+}

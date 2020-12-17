@@ -1,0 +1,23 @@
+package com.pro.template;
+
+public class StoreOrder extends OrderProcessTemplate {
+
+	@Override
+	public void doSelect() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doPayment() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doDelivery() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

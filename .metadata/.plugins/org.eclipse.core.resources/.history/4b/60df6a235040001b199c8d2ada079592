@@ -1,0 +1,11 @@
+package com.pro.template;
+
+public absrtact class OrderProcessTemplate {
+	
+	public boolean isGift;
+	public abstract void doSelect(); 
+	  
+    public abstract void doPayment(); 
+  
+
+}

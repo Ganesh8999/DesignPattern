@@ -1,0 +1,13 @@
+package com.pro.strategy;
+
+public class SocialMediaContext {
+	
+	InetSocialMediaStrategy ismStrategy;
+
+	public SocialMediaContext(InetSocialMediaStrategy ismStrategy) {
+		this.ismStrategy = ismStrategy;
+	}
+	
+	
+
+}

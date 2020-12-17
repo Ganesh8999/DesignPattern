@@ -1,0 +1,12 @@
+package com.pro.strategy;
+
+public class TestStrategyPattern {
+	
+	public static void main(String[] args) {
+		
+		
+		SocialMediaContext context = new SocialMediaContext();
+	}
+	
+
+}

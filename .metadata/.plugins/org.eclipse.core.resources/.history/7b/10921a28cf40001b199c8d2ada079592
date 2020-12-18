@@ -1,0 +1,15 @@
+package com.pro.visitor;
+
+interface ShoppingCartVisitor {
+
+	public int visit(Book book) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int visit(Fruit fruit) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.pro.visitor;
+
+public class ShoppingCartClient {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		ItemElement[] elements = new ItemElement[]
+ 	}
+
+}

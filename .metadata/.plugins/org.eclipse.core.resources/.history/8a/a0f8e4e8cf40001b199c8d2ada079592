@@ -1,0 +1,38 @@
+package com.pro.visitor;
+
+public class Fruit implements ItemElement {
+
+	private int pricePerKg;
+	private String name;
+	private int weight;
+	
+	
+	public Fruit(int pricePerKg, String name, int weight) {
+		super();
+		this.pricePerKg = pricePerKg;
+		this.name = name;
+		this.weight = weight;
+	}
+
+
+	int getPricePerKg() {
+		return pricePerKg;
+	}
+
+
+	String getName() {
+		return name;
+	}
+
+
+	int getWeight() {
+		return weight;
+	}
+
+
+	@Override
+	public int accept(ShoppingCartVisitor visitor) {
+		return visitor.visit(this);
+	}
+
+}

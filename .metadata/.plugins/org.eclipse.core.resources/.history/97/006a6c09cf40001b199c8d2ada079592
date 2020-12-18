@@ -1,0 +1,11 @@
+package com.pro.visitor;
+
+public class Fruit implements ItemElement {
+
+	@Override
+	public int accept(ShoppingCartVisitor visitor) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

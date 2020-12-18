@@ -1,0 +1,11 @@
+package com.pro.visitor;
+
+public class Book implements ItemElement {
+
+	@Override
+	public int accept(ShoppingCartVisitor visitor) {
+
+		return 0;
+	}
+
+}
